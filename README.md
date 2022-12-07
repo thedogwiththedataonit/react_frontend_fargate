@@ -1,7 +1,2 @@
-# React-Clean-Slate
-Empty App to get started
-
-npm i
-
-npm start
+# Frontend React app on port 3000
 

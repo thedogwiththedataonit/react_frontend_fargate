@@ -1,9 +1,19 @@
+
+import Header from "./modules/Header" 
+import PostComponent from "./modules/PostComponent";
+import GetComponent from "./modules/GetComponent"
+
 function App() {
   return (
-    <div>
-      <h2>Let's get started!</h2>
-    </div>
-  );
+    <>
+      <Header></Header>
+      <div className="divider">
+        <PostComponent></PostComponent>
+        <GetComponent></GetComponent>
+      </div>
+
+    </>
+    )
 }
 
 export default App;

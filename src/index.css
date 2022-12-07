@@ -10,6 +10,12 @@ html {
 
 body {
   margin: 0;
-  background-color: #3f3f3f;
+  background-color: rgb(255, 237, 202);
 }
 
+.divider {
+  width:100%;
+  display:flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+}

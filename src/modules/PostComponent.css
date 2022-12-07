@@ -1,0 +1,28 @@
+.post-component {
+    width:50%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.post-component textarea {
+    width: 60%;
+    height: 100px;
+
+}
+
+.post-component button {
+    width: 50%;
+    margin-top: 30px;
+    height: 30px;
+    background-color: rgb(136, 136, 255);
+    border: none;
+    color: #fafafa
+}
+
+.post-component button:hover {
+    background-color: rgb(101, 101, 255);
+    box-shadow: 1px 1px 1px 1px rgb(203, 202, 255);
+    color: #fafafa;
+    cursor:pointer
+}
